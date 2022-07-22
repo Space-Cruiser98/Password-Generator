@@ -7,7 +7,7 @@ pw = ""
 for i in range(x):
   pw+="0"
   
-s = x div 4 
+s = x // 4 
 
 #Assigning character function
 def assign(a,b):
