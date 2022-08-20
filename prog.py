@@ -1,7 +1,7 @@
 from random import randint as r
 x = int(input("How many characters would you like your password to be ? Choose between 8 and 24 : "))
 while not (8<=x<=24):
-  x = int(input("Please choose a length between 8 and 24"))
+  x = int(input("Please choose a length between 8 and 24 : "))
 pw =""
 
 s= x//4 
